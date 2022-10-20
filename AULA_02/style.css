@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+input {
+    margin-top:20px;
+}
+
+input[type="number"] {
+    width: 80px;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-color: aquamarine;
+}
+
+input[type="button"] {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+h2 {
+    margin-top: 50px;
+    color: rgb(102, 204, 170);
+    border-bottom: 2px solid black;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-color: aquamarine;
+}
