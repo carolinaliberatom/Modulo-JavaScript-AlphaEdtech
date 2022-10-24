@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main, header {
+    text-align: center;
+    margin: 20px;
+}
+
+/* HEADER */
+
+h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* MAIN */
+
+input {
+    margin: 10px;
+    border-radius: 15px;
+}
+
+input[type="text"] {
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: white;
+    outline: none;
+    border-color: cadetblue;
+}
+
+/* BUTTONS */
+
+input[type="button"], input[type="reset"] {
+    width: 80px;
+    height: 25px;
+    border-color: cadetblue;
+}
+
+/* ERROR */
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+/* RESULT TEXT */
+
+.result-container {
+    margin: 0 auto;
+    width: 320px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}

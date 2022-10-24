@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Aula 04.1</title>
+</head>
+<body>
+    <header>
+        <h1>Deseja saber seu IMC <br> (Índice de Massa Corporal) ?</h1>
+        <p>Insira abaixo os seus dados:</p>
+    </header>
+    <main>
+        <form action="" class="form">
+            <div class="weight-container">
+                <label for="weight">Peso (Kg):</label>
+                <input type="text" id="weight">
+            </div>
+            <div class="height-container">
+                <label for="height">Altura (m):</label>
+                <input type="text" id="height" placeholder="Utilize ponto">
+            </div>
+            <div class="button-container">
+                <input type="button" value="Calcular!" class="button">
+                <input type="reset" value="Reset" class="reset">
+            </div>
+            <div class="error-container">
+                <p class="error"></p>
+            </div>
+        </form>
+        <section class="result-container">
+            <p class="result-imc"></p>
+            <p class="result-class"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

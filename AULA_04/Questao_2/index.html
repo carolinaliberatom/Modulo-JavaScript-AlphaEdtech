@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Aula 04.2</title>
+</head>
+<body>
+    <header>
+        <h1>Sorteio!</h1>
+        <p>Indique um número inteiro máximo, inteiro mínimo e clique no botão para sortear um valor!</p>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="numbers-container">
+                <input type="number" id="number-min" placeholder="Nº mínimo">
+                <input type="number" placeholder="Nº máximo"
+                id="number-max">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+            </div>
+
+            <div class="button-container">
+                <input type="button" value="Sortear!" id="button">
+            </div>
+
+            <div class="error-container">
+                <p class="error"></p>
+            </div>
+            
+        </form>
+
+        <section class="sorteio-container">
+            <h2 class="sorteio-text"></h2>
+            <p class="sorteio"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

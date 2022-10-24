@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+header p {
+    width: 80%;
+    margin: 0 auto
+}
+
+.numbers-container {
+    width: 250px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+input[type="button"] {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: lightgreen;
+}
+
+.sorteio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    width: 500px;
+}
+
+.sorteio-container p {
+    font-size: 1.5em;
+    margin: 0 20px;
+    color: brown;
+}
+
+.error {
+    font-size: 1.5em;
+    color: red;
+}
