@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Aula 03</title>
+</head>
+<body>
+    
+    <section class="card">
+        <div class="card-calc">
+
+            <div class="title">
+                <h1>Calculadora</h1>
+                <img src="assets/icons8-calc-64.png" alt="Calculadora" class="calc">
+            </div>
+            
+
+            <div class="numbers-input">
+                <input type="number" class="number1">
+                <span class="opr">+</span>
+                <input type="number" class="number2">
+            </div>
+
+            <select class="operator">
+                <option value="soma">Soma</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+            </select>
+
+            <input type="button" class="button" value="Calcular!">
+
+        </div>
+        <div class="card-result">
+            <p class="result"></p>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #bee3db;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23555b6e' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card {
+    height: 500px;
+    width: 480px;
+    border-radius: 20px;
+    background: #ffd6ba;
+    box-shadow: 0 0 10px 8px #ece7db;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* OPERATIONAL */
+
+.card-calc {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TITLE */
+
+.title {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-right: 10px;
+    font-size: 1.8em;
+}
+
+/* INPUTS */
+
+.numbers-input {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 60px;
+    font-size: 1.6em;
+    text-align: center;
+    border-radius: 18px;
+    outline: none;
+}
+
+.opr {
+    font-size: 2em;
+}
+
+/* SELECTOR */
+
+.operator {
+    width: 40%;
+    margin: 15px 0;
+    height: 30px;
+    font-size: 1em;
+    border-radius: 15px;
+    background-color: #faf9f9;
+    outline: none;
+}
+
+/* BUTTON */
+
+input[type="button"] {
+    height: 40px;
+    width: 100px;
+    border-radius: 18px;
+    margin-top: 15px;
+    font-size: 1em;
+    background-color: #bee3db;
+    outline: none;
+}
+
+/* RESULTS */
+
+.card-result {
+    width: 75%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+    font-size: 1.3em;
+    background-color: #faf9f9;
+    border-radius: 20px;
+}
+
+p {
+    width: 80%;
+}
+
+/* ANIMATION */
