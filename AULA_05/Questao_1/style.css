@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+input[type="number"] {
+    height: 30px;
+    width: 40px;
+    font-size: 1em;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 130px;
+}
