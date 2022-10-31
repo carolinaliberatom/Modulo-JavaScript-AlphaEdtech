@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #264653;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container-input {
+    background-color: #e9c46a;
+    width: 800px;
+    height: 280px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#cep {
+    border-radius: 18px;
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    font-size: 2em;
+}
