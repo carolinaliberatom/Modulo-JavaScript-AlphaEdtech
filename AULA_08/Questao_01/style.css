@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #bee3db;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23555b6e' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card {
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    background: #ffd6ba;
+    box-shadow: 0 0 10px 8px #ece7db;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* OPERATIONAL */
+
+.card-calendario {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TITLE */
+
+.title {
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+/* INFOS */
+
+.container {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    width: 30%;
+    font-size: 1.1em;
+}
+
+input, select{
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 18px;
+    outline: none;
+    font-size: 1em;
+    background-color: white;
+}
+
+.text-input {
+    width: 250px;
+    text-transform: capitalize;
+}
+
+.number-input {
+    width: 60px;
+}
+
+select {
+    width: 130px;
+}
+
+/* BUTTON */
+
+.button {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+input[type="button"] {
+    height: 40px;
+    width: 100px;
+    border-radius: 18px;
+    font-size: 1em;
+    background-color: #bee3db;
+    outline: none;
+    
+}
+
+h3 {
+    color: red;
+}
