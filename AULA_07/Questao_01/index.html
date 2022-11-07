@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Aula 03</title>
+</head>
+<body>
+    
+    <main class="card">
+
+        <section class="card-calendario">
+
+            <div class="title">
+                <h1>Cadastre-se</h1>
+            </div>
+            
+            <div class="container">
+
+                <h2>Nome:</h2>
+                <input type="text" id="name" class="text-input" required>
+
+            </div>
+
+            <div class="container">
+                
+                <h2>Data de Nascimento:</h2>
+                <input type="text" class="number-input" id="day" placeholder="Dia" maxlength="2" required>
+                <input type="text" class="number-input" id="month" placeholder="Mês" maxlength="2" required>
+                <input type="text" class="number-input" id="year" placeholder="Ano" maxlength="4" required>
+
+            </div>
+
+            <div class="container">
+                
+                <h2>Peso: </h2>
+                <input type="text" id="weight" class="number-input" placeholder="kg" maxlength="4" required>
+                <h2>Altura:</h2>
+                <input type="text" id="height" class="number-input" placeholder="cm" maxlength="3" required>
+
+            </div>
+
+            <div class="container">
+                
+                <h2>Gênero:</h2>
+                <select id="gender" required>
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                    <option value="others">Outros</option>
+                </select>
+
+            </div>
+
+            <div class="button">
+                
+                <input type="button" id="button" value="Enviar!">
+
+            </div>
+
+            <h3 id="error"></h2>
+
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
