@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Aula 09</title>
+</head>
+<body>
+
+    <main class="box-container">
+        <section class="box">
+            <div class="title-container">
+                <h1>Quantos dias faltam para a sua <span>morte</span>?</h1>
+            </div>
+
+            <div class="content-container">
+
+                <form>
+                    
+                    <div class="h2-container">
+                        <h2>Informe sua data de nascimento e gênero:</h2>
+                    </div>
+                    
+                    <div class="input-container">
+                        <input type="text" id="day" placeholder="DD" maxlength="2" oninput="onlyNumbers()">
+                        <label for="day">Dia:</label>
+                    </div>
+    
+                    <div class="input-container">
+                        <input type="text" id="month" placeholder="MM" maxlength="2" oninput="onlyNumbers()">
+                        <label for="month">Mês:</label>
+                    </div>
+    
+                    <div class="input-container">
+                        <input type="text" id="year" placeholder="YYYY" maxlength="4" oninput="onlyNumbers()">
+                        <label for="year">Ano:</label>
+                    </div>
+    
+                    <select id="gender">
+                        <option value="selec">- Gênero -</option>
+                        <option value="female">Feminino</option>
+                        <option value="male">Masculino</option>
+                    </select>
+                </form>
+    
+                <aside class="result-container">
+                    <div class="text-container">
+                        <p id="text"></p>
+                    </div>
+
+                    <div class="button-container">
+                        <button id="button" type="submit" onclick="createObj(event)">Verificar!</button>
+                    </div>
+
+                    <div class="error-container">
+                        <p id="error"></p>
+                    </div>
+                </aside>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
