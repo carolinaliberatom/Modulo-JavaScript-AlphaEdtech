@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Aula 10</title>
+</head>
+<body>
+
+    <section class="card-container">
+        <div class="card">
+            <div class="title-container">
+                <h2>Cadastre seu produto!</h1>
+            </div>
+    
+            <form>
+    
+                <div class="input-container">
+                    <label for="product">Nome do produto:</label>
+                    <input type="text" id="product" class="input">
+                </div>
+    
+                <div class="input-container">
+                    <label for="description">Descrição:</label>
+                    <textarea id="description" cols="30" rows="4"></textarea >
+                </div>
+    
+                <div class="input-container">
+                    <label for="value">Valor do produto:</label>
+                    <input type="text" id="value" oninput=onlyNumbers() placeholder="--Valores inteiros--" class="input">
+                </div>
+            </form>
+
+            <div class="textResult-container">
+                <p id="textResult" > &nbsp </p>
+           </div>
+    
+            <div class="button-container">
+                <button id="inclButton" onclick=includeProd()>Incluir produto</button>
+                <button id="listButton" onclick=listProd()>Listar produtos</button>
+           </div>
+        </div>
+    </section>
+
+    <section class="card-container" id="list-card">
+        <div class="card" >
+            <div class="title-container" id="title-table">
+                <h2>Lista dos produtos:</h1>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Pesquise por nome/descrição" class="input-search">
+                <button id="searchButton" onclick=searchTable()>Procurar</button>
+            </div>
+
+            <div class="table-container">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th onclick=sortNames() class="make-buttons">Nome</th>
+                            <th onclick=sortValues() class="make-buttons">Valor</th>
+                            <th>Editar</th>
+                            <th>Apagar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="prodView-container">
+                <p class="prodView" id="prodView"> &nbsp </p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

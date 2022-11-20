@@ -1,0 +1,166 @@
+/* GENERAL CONFIGURATION */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top right,#fc2c77 0%,#6c4079 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.card-container {
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.card {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #555;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #525252;
+    font-weight: 400;
+}
+
+/* REGISTRATION CARD */
+
+.title-container {
+    height: 10%;
+    display: flex;
+}
+
+form {
+    height: 65%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input, textarea, .input-search {
+    background: #fafafa;
+    box-shadow: inset 0 1px 3px 0 rgb(0 0 0 / 8%);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.input {
+    line-height: 50px;
+}
+
+.button-container {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+button {
+    background: #77CC6D;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.textResult-container {
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+/* PRODUCT LIST */
+
+#list-card {
+    width: 600px;
+}
+
+#title-table {
+    justify-content: center;
+    height: 13%;
+}
+
+.table-container {
+    max-height: 54%;
+    overflow-y: auto;
+}
+
+.search-container {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.input-search {
+    width: 65%;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    visibility: hidden;
+    border-radius: 5px;
+    
+}
+
+td, th {
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#editIcon, #deleteIcon, .make-buttons{
+    cursor: pointer;
+}
+
+.make-buttons:hover {
+    text-decoration: underline;
+}
+
+/* DESCRIPTION */
+
+.prodView-container {
+    height: 30%;
+    padding-top: 30px;
+}
