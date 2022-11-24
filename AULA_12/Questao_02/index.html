@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 12.2</title>
+</head>
+<body>
+
+    <main class="background-container">
+        <div class="table-container">
+            <div class="cards-container">
+                <div class="card" id="primeiraCarta"></div>
+                <div class="card" id="segundaCarta"></div>
+                <div class="card" id="terceiraCarta"></div>
+                <div class="card" id="quartaCarta"></div>
+                <div class="card" id="quintaCarta"></div>
+            </div>
+
+            <div class="text-container">
+                <p class="text" id="text"> &nbsp; </p>
+            </div>
+        </div>
+
+        <div class="user-container">
+            <div class="button-container">
+                <button onclick=createDeck() id="createButton">Criar baralho!</button>
+                <button onclick=showHand() id="showButton">Puxar cartas!</button>
+                <button onclick=reset()>Resetar!</button>
+            </div>
+            <div class="cards">
+                <p class="card-text" id="cardText"> &nbsp; </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
