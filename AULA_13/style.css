@@ -1,0 +1,111 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top right,#fc2c77 0%,#6c4079 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.card-container {
+    width: 700px;
+    height: 850px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    height: 90%;
+}
+
+/* GAME CONTAINER */
+
+.game-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px; /* tamanho de cada coluna */
+    grid-template-rows: 200px 200px 200px
+    
+}
+
+/* .bgx{
+    background-color: red;
+}
+
+.bgo{
+    background-color: blue;
+} */
+
+.elemento {
+    border: solid 1px black;
+    cursor: pointer;
+    background-size: cover
+}
+
+/* TEXT AND BUTTON CONTAINER  */
+
+.controls-container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* TEXT */
+
+.text-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    font-size: 25px;
+}
+
+/* BUTTON */
+
+.button-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #77CC6D;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
